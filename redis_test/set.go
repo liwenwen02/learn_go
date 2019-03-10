@@ -4,7 +4,7 @@ import (
 	"github.com/garyburd/redigo/redis"
 	"fmt"
 )
-
+type]]]]]]]]]]]]]
 func main() {
 	c, err := redis.Dial("tcp","localhost:6379")
 	if err != nil {
@@ -27,6 +27,8 @@ func main() {
 	}
 	fmt.Println("get sucess will return:", v2)
 
+}
+func addMess(m ) {
 
 }
 
